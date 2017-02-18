@@ -42,7 +42,7 @@ def def_get_backup_target():
             finally:
                 if instance[TAG_KEY] >= 0:
                     backup_target.append(instance)
-        return backup_target
+    return backup_target
 
 def def_create_backup(backup_targets):
     """
